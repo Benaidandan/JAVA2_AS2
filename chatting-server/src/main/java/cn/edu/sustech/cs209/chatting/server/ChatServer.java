@@ -97,7 +97,7 @@ public class ChatServer {
 //    }
 
     public static void main(String[] args) {
-        int port=12345;
+        int port = 12345;
         ChatServer server = new ChatServer(port);
     }
 }
