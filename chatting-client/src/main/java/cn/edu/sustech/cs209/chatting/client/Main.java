@@ -20,7 +20,7 @@ public class Main extends Application {
         stage.setScene(new Scene(fxmlLoader.load()));
         stage.setTitle("Chatting Client");
         stage.show();
-        bigStage=stage;
+        bigStage = stage;
     }
     public static Stage getBigStage() {
         return bigStage;
