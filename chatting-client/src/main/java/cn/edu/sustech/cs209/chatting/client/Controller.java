@@ -87,7 +87,7 @@ public class Controller implements Initializable {
                         try {
                             String message = in.readLine();
                             bigStage = Main.getBigStage();
-                            if (bigStage!=null){
+                            if (bigStage != null){
                                 if (!bigStage.isShowing()){
                                     out.println("/leave/" + username);
                                     in.close();
